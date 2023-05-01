@@ -1,0 +1,62 @@
+/*EXPERIENCIA*/
+/*EXPERIENCIA TITULO*/
+  .exp {
+    background-color: #0d0d13;
+    color: #ffffff;
+    line-height: 1.5;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+  
+  }
+  
+  .exp .about {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .exp .titulo h2 {
+    font-size: 30px;
+    color: #da2d2d;
+    position: relative;
+    background: none;
+    text-transform: uppercase;
+    -webkit-transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+            transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    -webkit-transition-duration: 400ms;
+            transition-duration: 400ms;
+    -webkit-transition-property: color;
+    transition-property: color;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .exp .titulo h2:focus,
+  .exp .titulo h2:hover {
+    color: #fff;
+  }
+  
+  .exp .titulo h2:focus:after,
+  .exp .titulo h2:hover:after {
+    width: 100%;
+    left: 0%;
+  }
+  
+  .exp .titulo h2:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #ff0400;
+    -webkit-transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+            transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    -webkit-transition-duration: 400ms;
+            transition-duration: 400ms;
+    -webkit-transition-property: width, left;
+    transition-property: width, left;
+  }
+  /*EXPERIENCIA CUADROS*/
+  
